@@ -4,7 +4,7 @@
     background-color: #d9d9d9;
 }
 
-#Header {
+#Header, #Footer {
     text-align: center;
     padding: 10px 0 0 0;
 }
@@ -16,16 +16,46 @@
     display: inline-block;
 }
 
+.contactLine {
+    border-bottom: 1px solid black;
+    width: 1300px;
+
+    display: inline-block;
+}
+
 .block {
     height: 200px;
     width: 192px;
 
     display: inline-block;
 
-    margin: 3em 5em 5em 12em;
+    margin: 3em 10em 3em 9em;
 
     background-color: #ece76f;
     border: 1px solid black;
+}
+
+#imgBLock1 {
+    margin-left: 10em;
+
+    position: relative;
+    ;left: 67px;
+}
+
+#imgBLock3 {
+    margin-right: 8em;
+
+    position: relative;
+    right: 5px;
+}
+
+#imgBLock2 {
+    margin-right: 8em;
+    margin-left: 8em;
+
+    position: relative;
+    left: 23px;
+    bottom: 15px;
 }
 
 img {
@@ -52,6 +82,6 @@ img {
     width: 800px;
 
     position: relative;
-    left: 370px;
+    left: 365px;
 
 }
