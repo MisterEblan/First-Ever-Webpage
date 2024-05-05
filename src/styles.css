@@ -41,23 +41,28 @@
     border: 1px solid black;
     border-radius: 3px;
 
+    box-shadow: 7px 5px 0 slategray;
 }
 
-#imgBLock1 {
+.block:hover {
+    cursor: pointer;
+}
+
+#imgC\+\+ {
     margin-left: 10em;
 
     position: relative;
     ;left: 67px;
 }
 
-#imgBLock3 {
+#imgPython {
     margin-right: 8em;
 
     position: relative;
     right: 5px;
 }
 
-#imgBLock2 {
+#imgJS {
     margin-right: 8em;
     margin-left: 8em;
 
