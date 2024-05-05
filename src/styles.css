@@ -37,8 +37,10 @@
 
     margin: 3em 10em 3em 9em;
 
-    background-color: #ece76f;
+    /*background-color: #ece76f;*/
     border: 1px solid black;
+    border-radius: 3px;
+
 }
 
 #imgBLock1 {
@@ -69,7 +71,13 @@ img {
     width: 100%;
 }
 
+/*.pythonImg {*/
+/*    position: relative;*/
+/*    left: 2px;*/
+/*    top: 3px;*/
 
+/*    z-index: 0;*/
+/*}*/
 
 .informationBlock {
     text-align: center;
@@ -105,4 +113,19 @@ img {
 
     margin-right: 5em;
     margin-left: 5em;
+}
+
+#email {
+    position: relative;
+    right: 125px;
+}
+
+#phone {
+    position: relative;
+    right: 35px;
+}
+
+#telegram {
+    position: relative;
+    left: 125px;
 }
