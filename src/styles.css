@@ -14,13 +14,19 @@
     width: 1400px;
 
     display: inline-block;
+
+    margin-top: 0.5em;
 }
+
 
 .contactLine {
     border-bottom: 1px solid black;
     width: 1300px;
 
     display: inline-block;
+
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
 }
 
 .block {
@@ -63,6 +69,18 @@ img {
     width: 100%;
 }
 
+
+
+.informationBlock {
+    text-align: center;
+
+    width: 750px;
+
+    position: relative;
+    left: 385px;
+
+}
+
 .infoLine {
     border-bottom: 1px solid black;
     width: 1000px;
@@ -70,18 +88,21 @@ img {
     display: inline-block;
 
     position: relative;
-    right: 100px;
+    right: 120px;
 
-    margin-top: 1em;
+    margin-top: 0.5em;
     margin-bottom: 1em;
 }
 
-.informationBlock {
-    text-align: center;
 
-    width: 800px;
-
+#Footer {
     position: relative;
-    left: 365px;
+    top: 4em;
+}
 
+.contactBlock {
+    display: inline-block;
+
+    margin-right: 5em;
+    margin-left: 5em;
 }
